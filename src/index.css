@@ -11,6 +11,7 @@ body {
   background-color: #202142;
   color: #fff;
   line-height: 1.6;
+  font-weight: 600;
 }
 
 ul {
@@ -32,6 +33,10 @@ header {
   margin-bottom: 30px;
 }
 
+header a {
+  text-decoration: none;
+}
+
 .card {
   background-color: #fff;
   color: #333;
@@ -48,7 +53,6 @@ header {
 
 .card h2 {
   font-size: 22px;
-  font-weight: 600;
   text-align: center;
 }
 
@@ -112,6 +116,7 @@ input {
   flex-grow: 2;
   border: none;
   font-size: 16px;
+  font-weight: 600;
 }
 
 input:focus {
@@ -157,10 +162,12 @@ input:focus {
 
 .btn-primary {
   background-color: #202142;
+  font-size: 17px;
 }
 
 .btn-secondary {
   background: #ff6a95;
+  font-size: 17px;
 }
 
 .btn:hover {
@@ -169,8 +176,9 @@ input:focus {
 }
 
 .btn:disabled {
-  background-color: #cccccc;
+  background-color: #e2e1e1;
   color: #333;
+  font-weight: 700;
   cursor: auto;
 }
 
@@ -198,6 +206,9 @@ input:focus {
 .about-link a {
   color: #fff;
   cursor: pointer;
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
 }
 
 .about-link a:hover {
