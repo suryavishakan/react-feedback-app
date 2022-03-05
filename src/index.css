@@ -183,6 +183,7 @@ input:focus {
   padding-top: 10px;
   text-align: center;
   color: rebeccapurple;
+  font-weight: 600;
 }
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
